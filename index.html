@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galería de imagenes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <h2 class="titulo">Galería "Aves del mundo"</h2>
+    <div class="galeria">
+      <img
+        src="https://img.freepik.com/psd-gratis/colibri-esta-aislado_23-2151845448.jpg?semt=ais_hybrid&w=740"
+        id="img-0"
+        class="miniatura"
+        alt="Imagen 1"
+      />
+      <img
+        src="https://img.freepik.com/fotos-premium/primer-plano-pajaro-posado-rama_1048944-17181657.jpg?semt=ais_hybrid&w=740"
+        id="img-1"
+        class="miniatura"
+        alt="Imagen 2"
+      />
+      <img
+        src="https://img.freepik.com/foto-gratis/tangara-escarlata-rama_181624-6092.jpg?semt=ais_hybrid&w=740"
+        id="img-2"
+        class="miniatura"
+        alt="Imagen 3"
+      />
+      <img
+        src="https://img.freepik.com/fotos-premium/comedor-abejas-verde_1048944-9664745.jpg?semt=ais_hybrid&w=740"
+        id="img-3"
+        class="miniatura"
+        alt="Imagen 4"
+      />
+      <img
+        src="https://img.freepik.com/fotos-premium/primer-plano-pajaro-posado-rama_1048944-6558175.jpg?semt=ais_hybrid&w=740"
+        id="img-4"
+        class="miniatura"
+        alt="Imagen 5"
+      />
+    </div>
+
+    <div id="modal" class="modal">
+      <span id="cerrar">&times;</span>
+      <img class="modal-contenido" id="imagenGrande" />
+      <button id="anterior" class="navegar">&#10094;</button>
+      <button id="siguiente" class="navegar">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
